@@ -1,0 +1,5 @@
+random qoute machine?
+
+store 10 quotes in local qoute array in react component
+when user clicks button it picks a random quote from array displays it to screen
+changes colour and styles when button pressed

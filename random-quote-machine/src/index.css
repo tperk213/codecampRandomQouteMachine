@@ -1,0 +1,77 @@
+*{
+  vertical-align: baseline;
+}
+
+div{
+  position:relative;
+  z-index: 2;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  /* vertical-align: baseline; */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #333;
+  color: #333;
+}
+
+.footer{
+  width: 450;
+  text-align: center;
+  display:block;
+  margin: 15px auto 30px auto;
+  font-size: 0.8em;
+  color: #fff;
+  
+}
+
+.quote-box {
+  display: table;
+  vertical-align: middle;
+  border-radius: 3px;
+  /* left: 50%;
+  top: 50%; */
+  /* transform: translate(-50%, -50%); */
+  margin: 8% auto auto auto;
+  width: 450px;
+  padding: 40px 50px;
+  /* display: table; */
+  background-color: #fff;
+}
+
+.quote-text{
+  text-align: center;
+  width: 450px;
+  height: auto;
+  clear: both;
+  font-weight: 500;
+  font-size: 1.75em;
+}
+
+.quote-author{
+  width: 450px;
+  text-align: right;
+  height: auto;
+  clear: both;
+  padding-top: 20px;
+  font-size: 1em;
+}
+
+div{
+  position:relative;
+  z-index: 2;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
